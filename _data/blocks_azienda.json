@@ -3,12 +3,12 @@
     "id": "chi",
     "nome": "Chi siamo",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"chi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Chi siamo</p><h2 class=\"gc-h2\">Titolo della presentazione</h2><p class=\"gc-lead\">Chi siete, cosa fate e per chi.</p><p>Un paragrafo in più su come lavorate.</p></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"chi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Chi siamo</p><h2 class=\"gc-h2\">Candele profumate, senza complicazioni</h2><p class=\"gc-lead\">Vendiamo candele profumate in giara di vetro con coperchio, tutte allo stesso prezzo: 19,99 euro.</p><p>Abbiamo scelto dodici fragranze divise in sei famiglie, dalle più fresche alle più calde, pensate per profumare la casa in ogni stagione. Niente listini complicati: scegli la fragranza che ti piace.</p></div></section></div>"
   },
   {
     "id": "principi",
     "nome": "Principi",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"principi\"><div class=\"gc-wrap\"><h2 class=\"gc-h2\">Come ci comportiamo</h2><div class=\"gc-plat\"><div class=\"gc-pl\"><span class=\"n\">1</span><b>Primo principio</b><p>Descrizione breve.</p></div><div class=\"gc-pl\"><span class=\"n\">2</span><b>Secondo principio</b><p>Descrizione breve.</p></div><div class=\"gc-pl\"><span class=\"n\">3</span><b>Terzo principio</b><p>Descrizione breve.</p></div></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"principi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Come lavoriamo</p><h2 class=\"gc-h2\">Tre principi</h2><div class=\"gc-plat ent-4\"><div class=\"gc-pl ent-pl\"><b>Prezzo chiaro</b><ul><li>19,99 euro per ogni candela</li></ul></div><div class=\"gc-pl ent-pl\"><b>Scelta semplice</b><ul><li>Dodici fragranze in sei famiglie</li></ul></div><div class=\"gc-pl ent-pl\"><b>Profumo protetto</b><ul><li>Giara di vetro con coperchio</li></ul></div></div></div></section></div>"
   }
 ]

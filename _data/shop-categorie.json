@@ -1,6 +1,26 @@
 [
   {
-    "nome": "esempio",
-    "slug": "esempio"
+    "nome": "Floreali",
+    "slug": "fiori"
+  },
+  {
+    "nome": "Fruttate",
+    "slug": "frutta"
+  },
+  {
+    "nome": "Dolci e gourmand",
+    "slug": "dolci"
+  },
+  {
+    "nome": "Fresche e marine",
+    "slug": "fresco"
+  },
+  {
+    "nome": "Legnose e speziate",
+    "slug": "legno-spezie"
+  },
+  {
+    "nome": "Natale e stagionali",
+    "slug": "stagionali"
   }
 ]

@@ -2,33 +2,304 @@
   "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
   "categorie": [
     {
-      "nome": "Esempio",
-      "id": "esempio",
-      "icona": "🛍️",
+      "nome": "Floreali",
+      "id": "fiori",
+      "icona": "🕯️",
+      "descrizione": "Rose, peonie, gelsomino e fiori di campo.",
       "tr": {
         "en": {
-          "nome": "Example"
+          "nome": "Floral",
+          "descrizione": "Roses, peonies, jasmine and wildflowers."
+        }
+      }
+    },
+    {
+      "nome": "Fruttate",
+      "id": "frutta",
+      "icona": "🕯️",
+      "descrizione": "Frutti rossi, agrumi e frutta estiva.",
+      "tr": {
+        "en": {
+          "nome": "Fruity",
+          "descrizione": "Berries, citrus and summer fruit."
+        }
+      }
+    },
+    {
+      "nome": "Dolci e gourmand",
+      "id": "dolci",
+      "icona": "🕯️",
+      "descrizione": "Vaniglia, caramello, biscotti e dolci appena sfornati.",
+      "tr": {
+        "en": {
+          "nome": "Sweet & gourmand",
+          "descrizione": "Vanilla, caramel, cookies and fresh bakes."
+        }
+      }
+    },
+    {
+      "nome": "Fresche e marine",
+      "id": "fresco",
+      "icona": "🕯️",
+      "descrizione": "Bucato pulito, brezza di mare e note acquatiche.",
+      "tr": {
+        "en": {
+          "nome": "Fresh & ocean",
+          "descrizione": "Clean laundry, sea breeze and watery notes."
+        }
+      }
+    },
+    {
+      "nome": "Legnose e speziate",
+      "id": "legno-spezie",
+      "icona": "🕯️",
+      "descrizione": "Cedro, sandalo, cannella e spezie calde.",
+      "tr": {
+        "en": {
+          "nome": "Woody & spicy",
+          "descrizione": "Cedar, sandalwood, cinnamon and warm spices."
+        }
+      }
+    },
+    {
+      "nome": "Natale e stagionali",
+      "id": "stagionali",
+      "icona": "🕯️",
+      "descrizione": "Fragranze per le feste e per ogni stagione.",
+      "tr": {
+        "en": {
+          "nome": "Seasonal & Christmas",
+          "descrizione": "Fragrances for the holidays and every season."
         }
       }
     }
   ],
   "prodotti": [
     {
-      "tipo": "digitale",
-      "id": "prodotto-esempio",
-      "nome": "Prodotto di esempio",
-      "categoria": "esempio",
-      "prezzo_centesimi": 1000,
-      "descrizione": "Descrizione breve del prodotto di esempio.",
-      "descrizione_completa": "Descrizione completa del prodotto.\nOgni riga diventa un paragrafo.",
-      "immagine": "",
-      "icona": "🛍️",
+      "tipo": "fisico",
+      "id": "rosa-peonia",
+      "nome": "Candela Rosa e Peonia",
+      "categoria": "fiori",
+      "prezzo_centesimi": 1999,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: rose e peonie in un bouquet morbido e delicato.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Rosa e Peonia: rose e peonie in un bouquet morbido e delicato.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/rosa-peonia.webp",
+      "icona": "🕯️",
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Example product",
-          "descrizione": "Short description of the example product.",
-          "descrizione_completa": "Full description of the product.\nEach line becomes a paragraph."
+          "nome": "Rose and Peony Candle",
+          "descrizione": "Scented candle in a glass jar with lid: rose and peonies in a soft, delicate bouquet.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Rose and Peony fragrance: rose and peonies in a soft, delicate bouquet.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "gelsomino-notte",
+      "nome": "Candela Gelsomino di Notte",
+      "categoria": "fiori",
+      "prezzo_centesimi": 1999,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: gelsomino bianco con una nota di muschio pulito.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Gelsomino di Notte: gelsomino bianco con una nota di muschio pulito.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/gelsomino-notte.webp",
+      "icona": "🕯️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Night Jasmine Candle",
+          "descrizione": "Scented candle in a glass jar with lid: white jasmine with a hint of clean musk.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Night Jasmine fragrance: white jasmine with a hint of clean musk.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "frutti-di-bosco",
+      "nome": "Candela Frutti di Bosco",
+      "categoria": "frutta",
+      "prezzo_centesimi": 1999,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: more, lamponi e mirtilli appena raccolti.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Frutti di Bosco: more, lamponi e mirtilli appena raccolti.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/frutti-di-bosco.webp",
+      "icona": "🕯️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Wild Berries Candle",
+          "descrizione": "Scented candle in a glass jar with lid: freshly picked blackberries, raspberries and blueberries.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Wild Berries fragrance: freshly picked blackberries, raspberries and blueberries.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "agrumi-di-sicilia",
+      "nome": "Candela Agrumi di Sicilia",
+      "categoria": "frutta",
+      "prezzo_centesimi": 1999,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: arancia, limone e bergamotto, vivaci e luminosi.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Agrumi di Sicilia: arancia, limone e bergamotto, vivaci e luminosi.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/agrumi-di-sicilia.webp",
+      "icona": "🕯️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Sicilian Citrus Candle",
+          "descrizione": "Scented candle in a glass jar with lid: orange, lemon and bergamot, bright and lively.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Sicilian Citrus fragrance: orange, lemon and bergamot, bright and lively.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "vaniglia-caramello",
+      "nome": "Candela Vaniglia e Caramello",
+      "categoria": "dolci",
+      "prezzo_centesimi": 1999,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: vaniglia cremosa e caramello fuso.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Vaniglia e Caramello: vaniglia cremosa e caramello fuso.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/vaniglia-caramello.webp",
+      "icona": "🕯️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Vanilla Caramel Candle",
+          "descrizione": "Scented candle in a glass jar with lid: creamy vanilla and melted caramel.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Vanilla Caramel fragrance: creamy vanilla and melted caramel.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "biscotti-burro",
+      "nome": "Candela Biscotti al Burro",
+      "categoria": "dolci",
+      "prezzo_centesimi": 1999,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: il profumo caldo di biscotti appena sfornati.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Biscotti al Burro: il profumo caldo di biscotti appena sfornati.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/biscotti-burro.webp",
+      "icona": "🕯️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Butter Cookies Candle",
+          "descrizione": "Scented candle in a glass jar with lid: the warm scent of freshly baked cookies.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Butter Cookies fragrance: the warm scent of freshly baked cookies.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "bucato-pulito",
+      "nome": "Candela Bucato Pulito",
+      "categoria": "fresco",
+      "prezzo_centesimi": 1999,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: lenzuola stese al sole, fresche e pulite.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Bucato Pulito: lenzuola stese al sole, fresche e pulite.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/bucato-pulito.webp",
+      "icona": "🕯️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Clean Laundry Candle",
+          "descrizione": "Scented candle in a glass jar with lid: sun-dried sheets, fresh and clean.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Clean Laundry fragrance: sun-dried sheets, fresh and clean.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "brezza-marina",
+      "nome": "Candela Brezza Marina",
+      "categoria": "fresco",
+      "prezzo_centesimi": 1999,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: aria di mare, sale e note acquatiche.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Brezza Marina: aria di mare, sale e note acquatiche.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/brezza-marina.webp",
+      "icona": "🕯️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Sea Breeze Candle",
+          "descrizione": "Scented candle in a glass jar with lid: sea air, salt and aquatic notes.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Sea Breeze fragrance: sea air, salt and aquatic notes.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cedro-sandalo",
+      "nome": "Candela Cedro e Sandalo",
+      "categoria": "legno-spezie",
+      "prezzo_centesimi": 1999,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: legni caldi e avvolgenti, eleganti e profondi.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Cedro e Sandalo: legni caldi e avvolgenti, eleganti e profondi.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/cedro-sandalo.webp",
+      "icona": "🕯️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Cedar and Sandalwood Candle",
+          "descrizione": "Scented candle in a glass jar with lid: warm, enveloping woods, elegant and deep.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Cedar and Sandalwood fragrance: warm, enveloping woods, elegant and deep.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cannella-chiodi",
+      "nome": "Candela Cannella e Chiodi di Garofano",
+      "categoria": "legno-spezie",
+      "prezzo_centesimi": 1999,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: spezie calde che ricordano una cucina in festa.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Cannella e Chiodi di Garofano: spezie calde che ricordano una cucina in festa.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/cannella-chiodi.webp",
+      "icona": "🕯️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Cinnamon and Cloves Candle",
+          "descrizione": "Scented candle in a glass jar with lid: warm spices that recall a festive kitchen.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Cinnamon and Cloves fragrance: warm spices that recall a festive kitchen.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "pino-innevato",
+      "nome": "Candela Pino Innevato",
+      "categoria": "stagionali",
+      "prezzo_centesimi": 1999,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: aghi di pino e aria fredda di montagna.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Pino Innevato: aghi di pino e aria fredda di montagna.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/pino-innevato.webp",
+      "icona": "🕯️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Snowy Pine Candle",
+          "descrizione": "Scented candle in a glass jar with lid: pine needles and cold mountain air.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Snowy Pine fragrance: pine needles and cold mountain air.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "mela-cannella-natale",
+      "nome": "Candela Mela e Cannella di Natale",
+      "categoria": "stagionali",
+      "prezzo_centesimi": 1999,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: mela rossa, cannella e un tocco di zucchero.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Mela e Cannella di Natale: mela rossa, cannella e un tocco di zucchero.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/mela-cannella-natale.webp",
+      "icona": "🕯️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Christmas Apple Cinnamon Candle",
+          "descrizione": "Scented candle in a glass jar with lid: red apple, cinnamon and a touch of sugar.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Christmas Apple Cinnamon fragrance: red apple, cinnamon and a touch of sugar.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
         }
       }
     }
