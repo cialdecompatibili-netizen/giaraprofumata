@@ -302,6 +302,196 @@
           "descrizione_completa": "Scented candle in a glass jar with lid, Christmas Apple Cinnamon fragrance: red apple, cinnamon and a touch of sugar.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
         }
       }
+    },
+    {
+      "tipo": "fisico",
+      "id": "lavanda-relax",
+      "nome": "Candela Lavanda Relax",
+      "categoria": "fiori",
+      "prezzo_centesimi": 199900,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: lavanda pura e morbida per serate di calma.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Lavanda Relax: lavanda morbida e pulita per rilassarsi a fine giornata.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/lavanda-relax.webp",
+      "icona": "",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Relaxing Lavender Candle",
+          "descrizione": "Scented candle in a glass jar with lid: soft, pure lavender for calm evenings.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Relaxing Lavender fragrance: soft, clean lavender to unwind at the end of the day.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "fiori-bianchi",
+      "nome": "Candela Fiori Bianchi",
+      "categoria": "fiori",
+      "prezzo_centesimi": 199900,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: gelsomino, gardenia e fiore d'arancio in un bouquet luminoso.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Fiori Bianchi: gelsomino, gardenia e fiore d'arancio, eleganti e luminosi.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/fiori-bianchi.webp",
+      "icona": "",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "White Flowers Candle",
+          "descrizione": "Scented candle in a glass jar with lid: jasmine, gardenia and orange blossom in a bright bouquet.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, White Flowers fragrance: jasmine, gardenia and orange blossom, elegant and bright.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "ambra-muschio",
+      "nome": "Candela Ambra e Muschio",
+      "categoria": "legno-spezie",
+      "prezzo_centesimi": 199900,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: ambra calda e muschio morbido, avvolgenti e sensuali.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Ambra e Muschio: note calde e avvolgenti, ideali per la sera.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/ambra-muschio.webp",
+      "icona": "",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Amber & Musk Candle",
+          "descrizione": "Scented candle in a glass jar with lid: warm amber and soft musk, enveloping and sensual.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Amber & Musk fragrance: warm, enveloping notes, perfect for the evening.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "mogano-teak",
+      "nome": "Candela Mogano e Teak",
+      "categoria": "legno-spezie",
+      "prezzo_centesimi": 199900,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: legni scuri caldi e puliti, un classico moderno.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Mogano e Teak: legni scuri, caldi e puliti.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/mogano-teak.webp",
+      "icona": "",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Mahogany Teakwood Candle",
+          "descrizione": "Scented candle in a glass jar with lid: warm, clean dark woods, a modern classic.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Mahogany Teakwood fragrance: dark, warm and clean woods.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "fumo-camoscio",
+      "nome": "Candela Fumo e Camoscio",
+      "categoria": "legno-spezie",
+      "prezzo_centesimi": 199900,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: fumo, pelle e camoscio per un carattere deciso.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Fumo e Camoscio: note di fumo, pelle e camoscio, calde e deciso carattere.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/fumo-camoscio.webp",
+      "icona": "",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Smoke & Suede Candle",
+          "descrizione": "Scented candle in a glass jar with lid: smoke, leather and suede with a bold character.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Smoke & Suede fragrance: smoke, leather and suede, warm with a bold character.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cocco-cremoso",
+      "nome": "Candela Cocco Cremoso",
+      "categoria": "dolci",
+      "prezzo_centesimi": 199900,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: cocco cremoso e tostato, dolce ma elegante.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Cocco Cremoso: cocco morbido e tostato, dolce senza essere stucchevole.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/cocco-cremoso.webp",
+      "icona": "",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Creamy Coconut Candle",
+          "descrizione": "Scented candle in a glass jar with lid: creamy, toasted coconut, sweet yet elegant.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Creamy Coconut fragrance: soft, toasted coconut, sweet without being cloying.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cardamomo-vaniglia",
+      "nome": "Candela Cardamomo e Vaniglia",
+      "categoria": "dolci",
+      "prezzo_centesimi": 199900,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: cardamomo speziato e vaniglia cremosa.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Cardamomo e Vaniglia: spezie delicate e vaniglia cremosa, calde e raffinate.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/cardamomo-vaniglia.webp",
+      "icona": "",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Cardamom & Vanilla Candle",
+          "descrizione": "Scented candle in a glass jar with lid: spiced cardamom and creamy vanilla.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Cardamom & Vanilla fragrance: delicate spice and creamy vanilla, warm and refined.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "fico-cashmere",
+      "nome": "Candela Fico e Cashmere",
+      "categoria": "frutta",
+      "prezzo_centesimi": 199900,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: fico verde e note morbide di cashmere.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Fico e Cashmere: fico verde e note morbide, perfetta per il salotto.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/fico-cashmere.webp",
+      "icona": "",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Fig & Cashmere Candle",
+          "descrizione": "Scented candle in a glass jar with lid: green fig and soft cashmere notes.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Fig & Cashmere fragrance: green fig and soft notes, perfect for the living room.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "abete-balsamo",
+      "nome": "Candela Abete e Balsamo",
+      "categoria": "stagionali",
+      "prezzo_centesimi": 199900,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: abete, balsamo e resine, il profumo del Natale.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Abete e Balsamo: abete, balsamo e note resinose per le feste.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/abete-balsamo.webp",
+      "icona": "",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Fir & Balsam Candle",
+          "descrizione": "Scented candle in a glass jar with lid: fir, balsam and resins, the scent of Christmas.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Fir & Balsam fragrance: fir, balsam and resinous notes for the holidays.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "zucca-speziata",
+      "nome": "Candela Zucca Speziata",
+      "categoria": "stagionali",
+      "prezzo_centesimi": 199900,
+      "descrizione": "Candela profumata in giara di vetro con coperchio: zucca, cannella dolce e vaniglia, comfort d'autunno.",
+      "descrizione_completa": "Candela profumata in giara di vetro con coperchio, fragranza Zucca Speziata: zucca, spezie dolci e vaniglia, un abbraccio d'autunno.\nIl coperchio protegge il profumo tra un utilizzo e l'altro.\nPrezzo unico: 19,99 euro.",
+      "immagine": "assets/images/prodotti/zucca-speziata.webp",
+      "icona": "",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Pumpkin Spice Candle",
+          "descrizione": "Scented candle in a glass jar with lid: pumpkin, sweet cinnamon and vanilla, autumn comfort.",
+          "descrizione_completa": "Scented candle in a glass jar with lid, Pumpkin Spice fragrance: pumpkin, sweet spice and vanilla, an autumn hug.\nThe lid protects the scent between uses.\nOne price: 19.99 euros."
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+ "template": "Fotografia di prodotto professionale e-commerce: {nome}, {aspetto}. Sfondo neutro chiaro sfumato, luce morbida da studio, alta definizione, nessun testo, nessuna scritta, nessun logo, nessuna persona",
+ "default": "",
+ "aspetti": {
+  "lavanda-relax": "candela profumata in giara di vetro con coperchio, rametti di lavanda viola accanto, luce soffusa, sfondo neutro",
+  "fiori-bianchi": "candela profumata in giara di vetro con coperchio, fiori bianchi di gardenia e gelsomino accanto, luce chiara",
+  "ambra-muschio": "candela profumata in giara di vetro con coperchio, toni ambrati caldi, sfondo scuro elegante, luce morbida",
+  "mogano-teak": "candela profumata in giara di vetro con coperchio, su tavolo di legno scuro di mogano, atmosfera calda",
+  "fumo-camoscio": "candela profumata in giara di vetro con coperchio, accanto a pelle scamosciata marrone, sfondo scuro, luce calda",
+  "cocco-cremoso": "candela profumata in giara di vetro con coperchio, mezzo cocco e scaglie di cocco accanto, sfondo chiaro",
+  "cardamomo-vaniglia": "candela profumata in giara di vetro con coperchio, baccelli di cardamomo e stecca di vaniglia accanto, luce calda",
+  "fico-cashmere": "candela profumata in giara di vetro con coperchio, fichi freschi accanto, plaid beige morbido, luce calda",
+  "abete-balsamo": "candela profumata in giara di vetro con coperchio, rametti di abete, pigne, atmosfera natalizia calda",
+  "zucca-speziata": "candela profumata in giara di vetro con coperchio, piccola zucca arancione e foglie autunnali accanto, luce calda"
+ }
+}
